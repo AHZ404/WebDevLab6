@@ -1,0 +1,30 @@
+.trusted-companies {
+  padding: 48px 0;
+  background-color: var(--light-color);
+}
+
+.companies-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.company-logo {
+  height: 32px;
+  opacity: 0.7;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.company-logo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+@media (max-width: 768px) {
+  .companies-logos {
+    justify-content: center;
+  }
+}
