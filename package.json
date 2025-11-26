@@ -1,4 +1,22 @@
 {
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "Udemy GUI React",
+  "homepage": "https://github.com/AHZ404/WebDevLab6#readme",
+  "bugs": {
+    "url": "https://github.com/AHZ404/WebDevLab6/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AHZ404/WebDevLab6.git"
+  },
+  "license": "ISC",
+  "author": "AHZ404",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
